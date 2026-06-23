@@ -766,3 +766,8 @@ a:focus-visible, .brand:focus-visible {
 .prose a.pub-link { border-bottom: none; margin-left: 5px; font-size: 0.82em; color: var(--muted);
   text-decoration: none; white-space: nowrap; }
 .prose a.pub-link:hover { color: var(--accent); }
+
+/* ---- Research Themes illustration ---- */
+.theme-map{margin:22px 0 8px;padding:20px 18px;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);}
+.theme-map svg{width:100%;height:auto;display:block;}
+.theme-map figcaption{margin-top:12px;font-size:.82rem;line-height:1.5;color:var(--muted);max-width:62ch;}
