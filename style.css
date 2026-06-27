@@ -771,3 +771,21 @@ a:focus-visible, .brand:focus-visible {
 .theme-map{margin:22px 0 8px;padding:20px 18px;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);}
 .theme-map svg{width:100%;height:auto;display:block;}
 .theme-map figcaption{margin-top:12px;font-size:.82rem;line-height:1.5;color:var(--muted);max-width:62ch;}
+
+/* ---- ES666 course page ---- */
+.cv-actions{display:flex;flex-wrap:wrap;gap:10px;margin:16px 0 2px}
+.cv-info{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px;margin:6px 0 4px}
+.cv-info__item{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px 16px;box-shadow:var(--shadow-sm)}
+.cv-info__k{font-family:"Red Hat Mono",monospace;font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:5px}
+.cv-info__v{font-size:.98rem;color:var(--ink);line-height:1.45}
+.cv-plan{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px;margin:10px 0 4px}
+.cv-step{position:relative;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:16px 16px 18px;box-shadow:var(--shadow-sm);overflow:hidden}
+.cv-step::before{content:"";position:absolute;left:0;top:0;height:100%;width:4px;background:var(--grad)}
+.cv-step__weeks{font-family:"Red Hat Mono",monospace;font-size:.74rem;letter-spacing:.05em;color:var(--accent);text-transform:uppercase;margin-bottom:6px}
+.cv-step__title{font-size:1rem;font-weight:600;color:var(--ink);line-height:1.35}
+.cv-step__n{position:absolute;right:13px;top:8px;font-family:Quicksand,sans-serif;font-weight:700;font-size:1.5rem;color:var(--line-2,var(--line));opacity:.65}
+.cv-books{list-style:none;padding:0;margin:6px 0;display:grid;gap:12px}
+.cv-books li{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:12px 16px;box-shadow:var(--shadow-sm)}
+.cv-books .bk-title{font-weight:600;color:var(--ink)}
+.cv-books .bk-meta{font-size:.86rem;color:var(--muted);margin-top:3px}
+.cv-books .bk-free{display:inline-block;margin-left:8px;font-family:"Red Hat Mono",monospace;font-size:.68rem;color:var(--accent);background:var(--accent-soft);border-radius:6px;padding:1px 7px;vertical-align:1px}
