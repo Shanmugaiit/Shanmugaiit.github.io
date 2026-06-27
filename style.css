@@ -789,3 +789,17 @@ a:focus-visible, .brand:focus-visible {
 .cv-books .bk-title{font-weight:600;color:var(--ink)}
 .cv-books .bk-meta{font-size:.86rem;color:var(--muted);margin-top:3px}
 .cv-books .bk-free{display:inline-block;margin-left:8px;font-family:"Red Hat Mono",monospace;font-size:.68rem;color:var(--accent);background:var(--accent-soft);border-radius:6px;padding:1px 7px;vertical-align:1px}
+
+/* ---- ES666 lecture schedule ---- */
+.cv-sched-wrap{overflow-x:auto;margin:10px 0 4px;border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow-sm)}
+.cv-sched{width:100%;border-collapse:collapse;font-size:.92rem;min-width:640px;background:var(--surface)}
+.cv-sched th{text-align:left;font-family:"Red Hat Mono",monospace;font-size:.7rem;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);font-weight:500;padding:11px 14px;border-bottom:2px solid var(--line-2,var(--line))}
+.cv-sched td{padding:11px 14px;border-bottom:1px solid var(--line);vertical-align:top;color:var(--ink)}
+.cv-sched tbody tr:last-child td{border-bottom:none}
+.cv-sched__num{font-family:"Red Hat Mono",monospace;color:var(--accent);font-weight:500;white-space:nowrap;width:42px}
+.cv-sched__desc{display:block;font-size:.82rem;color:var(--muted);margin-top:4px;line-height:1.5;max-width:54ch}
+.cv-sched__refs{font-size:.84rem;color:var(--muted);line-height:1.45}
+.cv-sched__part td{background:var(--accent-soft);color:var(--accent);font-weight:700;font-family:Quicksand,sans-serif;font-size:.86rem;letter-spacing:.02em;padding:9px 14px}
+.cv-sched tbody tr:not(.cv-sched__part):hover td{background:var(--surface-2)}
+.cv-sched__tba td{color:var(--muted)}
+.cv-sched .sl-none{color:var(--muted)}
