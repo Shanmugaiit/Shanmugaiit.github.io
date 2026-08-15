@@ -18,7 +18,7 @@
   --accent-deep:#1b3bb0;
   --accent-tint:#eaeefc;
 
-  --v:#7c3aed; --b:#2a52e0; --c:#06b6d4; --g:#10b981; --a:#f59e0b; /* spectrum */
+  --v:#1e40af; --b:#2a52e0; --c:#4f74e8; --g:#3a63e4; --a:#6f8fe8; /* spectrum */
 
   --hero-bg:#0e1016;
   --hero-panel:#161923;
@@ -171,9 +171,9 @@ h1,h2,h3{font-family:var(--f-display); font-weight:600; letter-spacing:-.02em; l
 .member-grid{display:grid; grid-template-columns:repeat(5,1fr); gap:18px 16px; margin-bottom:42px}
 .member{display:flex; flex-direction:column; align-items:center; text-align:center; gap:11px}
 .member .avatar{width:52px; height:52px; border-radius:50%; font-size:1.02rem;
-  background:linear-gradient(135deg,#2a52e0,#06b6d4)}
-.member:nth-child(3n) .avatar{background:linear-gradient(135deg,#7c3aed,#2a52e0)}
-.member:nth-child(3n+1) .avatar{background:linear-gradient(135deg,#10b981,#06b6d4)}
+  background:linear-gradient(135deg,#2a52e0,#4f74e8)}
+.member:nth-child(3n) .avatar{background:linear-gradient(135deg,#1e40af,#2a52e0)}
+.member:nth-child(3n+1) .avatar{background:linear-gradient(135deg,#3a63e4,#4f74e8)}
 .member span{font-size:.86rem; font-weight:500; color:var(--ink-soft); line-height:1.25}
 .alum-list{display:grid; grid-template-columns:repeat(3,1fr); gap:20px}
 .alum{background:var(--surface); border:1px solid var(--line); border-radius:14px; padding:20px}
@@ -272,12 +272,12 @@ h1,h2,h3{font-family:var(--f-display); font-weight:600; letter-spacing:-.02em; l
 }
 
 /* area spectral dots */
-.area:nth-child(1) .area__dot{background:#7c3aed}
-.area:nth-child(2) .area__dot{background:#2a52e0}
-.area:nth-child(3) .area__dot{background:#06b6d4}
-.area:nth-child(4) .area__dot{background:#10b981}
-.area:nth-child(5) .area__dot{background:#f59e0b}
-.area:nth-child(6) .area__dot{background:#e11d8f}
+.area:nth-child(1) .area__dot{background:#1e3a8a}
+.area:nth-child(2) .area__dot{background:#2547c8}
+.area:nth-child(3) .area__dot{background:#2a52e0}
+.area:nth-child(4) .area__dot{background:#4a6fe6}
+.area:nth-child(5) .area__dot{background:#6f8fe8}
+.area:nth-child(6) .area__dot{background:#9db6f2}
 .pub-note{font-family:var(--f-mono); font-size:.78rem; color:var(--muted)}
 
 /* ---------- sub-page hero ---------- */
@@ -293,9 +293,9 @@ h1,h2,h3{font-family:var(--f-display); font-weight:600; letter-spacing:-.02em; l
   padding:26px 16px; transition:transform .16s ease, box-shadow .16s ease}
 .tcard:hover{transform:translateY(-3px); box-shadow:var(--shadow-sm)}
 .tcard .avatar{width:64px; height:64px; border-radius:50%; margin:0 auto 14px; font-size:1.22rem;
-  background:linear-gradient(135deg,#2a52e0,#06b6d4)}
-.tcard:nth-child(3n) .avatar{background:linear-gradient(135deg,#7c3aed,#2a52e0)}
-.tcard:nth-child(3n+1) .avatar{background:linear-gradient(135deg,#10b981,#06b6d4)}
+  background:linear-gradient(135deg,#2a52e0,#4f74e8)}
+.tcard:nth-child(3n) .avatar{background:linear-gradient(135deg,#1e40af,#2a52e0)}
+.tcard:nth-child(3n+1) .avatar{background:linear-gradient(135deg,#3a63e4,#4f74e8)}
 .tcard__name{font-family:var(--f-display); font-weight:600; font-size:1rem; letter-spacing:-.01em}
 .tcard__focus{font-size:.82rem; color:var(--muted); margin-top:5px; line-height:1.4}
 .tcard__tag{display:inline-block; margin-top:11px; font-family:var(--f-mono); font-size:.6rem;
