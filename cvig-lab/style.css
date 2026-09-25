@@ -314,3 +314,5 @@ h1,h2,h3{font-family:var(--f-display); font-weight:600; letter-spacing:-.02em; l
 .section .subhead + .team-grid{margin-bottom:6px}
 .team-grid ~ .subhead{margin-top:40px}
 .team-grid + .pub-note{margin-top:22px}
+
+.tcard__tag + .tcard__tag{margin-left:6px}
