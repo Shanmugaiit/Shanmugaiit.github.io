@@ -809,3 +809,6 @@ a:focus-visible, .brand:focus-visible {
 .cv-tas__k{display:inline-block;font-family:"Red Hat Mono",monospace;font-size:.68rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-right:9px;vertical-align:1px}
 .theme-map svg a{cursor:pointer;text-decoration:none}
 .theme-map svg a:hover rect{opacity:.9}
+
+/* chair line under the name */
+.hero__name + .hero__chair { margin: -6px 0 16px; font-family: "Quicksand", sans-serif; font-size: 1.12rem; font-weight: 600; letter-spacing: .01em; color: var(--accent-2); }
