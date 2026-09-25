@@ -1,31 +1,32 @@
 /* ============================================================
    Shanmuganathan Raman — academic site
-   Design system: "Teal" — a calm scientific-colormap identity.
-   Soft cool-teal paper, deep teal accent, and a
-   teal colormap ramp as the recurring signature.
+   Design system: light beige, brown & burgundy.
+   Light beige paper, burgundy accent, and a
+   burgundy-to-sand ramp as the recurring signature.
    Fonts (loaded in <head>): Quicksand / Nunito / Red Hat Mono.
    ============================================================ */
 
 :root {
-  --bg:        #f7f1e8;   /* paper */
-  --bg-2:      #f1e9dd;
+  color-scheme: light;
+  --bg:        #fcf8f2;   /* light beige paper */
+  --bg-2:      #f7f1e8;
   --surface:   #ffffff;
   --surface-2: #ffffff;
-  --ink:       #2a1d17;   /* ink */
-  --ink-2:     #4d3c31;
-  --muted:     #7a6a5c;
-  --line:      #ebe1d3;
-  --line-2:    #f3ece2;
+  --ink:       #3a2b23;   /* warm brown ink */
+  --ink-2:     #5a4739;
+  --muted:     #8a7a6b;
+  --line:      #efe6da;
+  --line-2:    #f6f0e7;
 
-  /* emerald & gold ramp */
-  --accent:      #7a1f2b;   /* burgundy (links/markers) */
-  --accent-2:    #6b4430;   /* brown */
-  --accent-hot:  #a33a45;   /* light burgundy (hover) */
-  --accent-soft: #f3e6df;   /* beige wash */
+  /* burgundy, brown & beige ramp */
+  --accent:      #8e2f3b;   /* burgundy (links/markers) */
+  --accent-2:    #8a5a3c;   /* brown */
+  --accent-hot:  #b24a55;   /* light burgundy (hover) */
+  --accent-soft: #f7ece6;   /* beige wash */
 
   --grad:     linear-gradient(135deg, var(--accent) 0%, var(--accent-2) 100%);
   --plasma:   linear-gradient(90deg,
-                #2b0f14 0%, #5a1522 16%, #7a1f2b 32%, #8c4a32 48%,
+                #8e2f3b 0%, #a0414b 16%, #b0585d 32%, #a8683f 48%,
                 #a9754f 62%, #c9a37e 74%, #e2cdb0 86%, #eee0cc 95%, #f4ebdf 100%);
 
   --maxw: 1080px;
@@ -435,40 +436,7 @@ a:focus-visible, .brand:focus-visible {
   .yr { position: static; display: inline-block; margin-top: 8px; }
 }
 
-/* ============================================================
-   Dark mode
-   ============================================================ */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg:        #1a1210;
-    --bg-2:      #2a1d17;
-    --surface:   #231915;
-    --surface-2: #2a1d17;
-    --ink:       #f3ece2;
-    --ink-2:     #cfbfa9;
-    --muted:     #978676;
-    --line:      #3a2b22;
-    --line-2:    #33251d;
-    --accent:      #e3a9a0;
-    --accent-2:    #d8b894;
-    --accent-hot:  #f0c6be;
-    --accent-soft: #3a1d20;
-    --shadow:    0 1px 2px rgba(0,0,0,0.4), 0 8px 24px -12px rgba(0,0,0,0.6);
-    --shadow-sm: 0 1px 2px rgba(0,0,0,0.4), 0 4px 14px -10px rgba(0,0,0,0.6);
-  }
-  body {
-    background:
-      radial-gradient(900px 520px at 88% -8%, rgba(90,40,34,0.18) 0%, transparent 60%),
-      radial-gradient(640px 440px at -6% 6%, rgba(163,58,69,0.07) 0%, transparent 55%),
-      var(--bg);
-    background-attachment: fixed;
-  }
-  .site-nav { background: rgba(26,18,16,0.82); }
-  .nav-links a:hover, .nav-links a.current { background: var(--surface); }
-  .prose ol > li:hover { border-color: #44342a; }
-  .chips a:hover { color: var(--surface); }
-  .avatar { color: var(--surface); }
-}
+
 
 
 /* ============================================================
@@ -568,10 +536,7 @@ a:focus-visible, .brand:focus-visible {
   .tl-year-label { font-size: 0.82rem; position: static; }
 }
 
-@media (prefers-color-scheme: dark) {
-  .course-item:hover { border-color: #44342a; }
-  .tl-body::before { box-shadow: 0 0 0 4px var(--bg); }
-}
+
 
 /* Selected Highlights intro line (research page) */
 .hl-intro { margin: 6px 0 18px; max-width: 70ch; }
